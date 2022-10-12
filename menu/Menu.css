@@ -1,0 +1,359 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+body h2 {
+  font-family: "Josefin Sans", sans-serif;
+}
+body h3 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+header {
+  height: 800px;
+  width: 100%;
+  margin-top: 100px;
+  position: relative;
+}
+header .btn-scroll {
+  text-align: center;
+  position: absolute;
+  top: 750px;
+  left: 900px;
+  z-index: 100;
+}
+header .btn-scroll span {
+  width: 20px;
+  height: 20px;
+  background-color: darkgrey;
+  border-radius: 50%;
+  display: inline-block;
+}
+header .btn-scroll span:hover {
+  transform: scale(1.2);
+  background-color: darkorange;
+  cursor: pointer;
+}
+header .nav-menu {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(32, 32, 32);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .nav-menu .logo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100px;
+}
+header .nav-menu .logo img {
+  width: 20px;
+  height: 20px;
+}
+header .nav-menu .logo p {
+  margin: 0;
+}
+header .nav-menu .logo #pizza {
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+}
+header .nav-menu .logo #delicouse {
+  font-size: 11px;
+  letter-spacing: 3px;
+  font-weight: 300;
+  color: burlywood;
+}
+header .nav-menu nav {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+header .nav-menu nav a {
+  color: aliceblue;
+  text-decoration: none;
+  margin-right: 10px;
+}
+header .nav-menu nav a:hover {
+  color: burlywood;
+}
+header .hot-deals {
+  background-image: url("../Pizza-Layout/bg_1.jpg");
+  display: inline-block;
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  transition: all 2s;
+}
+header .hot-deals span {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #bbb;
+  display: inline-block;
+}
+header .hot-deals .preview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 50px auto 0;
+}
+header .hot-deals .preview .description {
+  text-align: end;
+  margin: 0 20px 0 20px;
+}
+header .hot-deals .preview .description .view {
+  font-family: "Nothing You Could Do", cursive;
+  margin-bottom: 0;
+  font-size: 50px;
+  color: burlywood;
+}
+header .hot-deals .preview .description .dish {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+  margin-top: 25px;
+}
+header .hot-deals .preview .description .description-dish {
+  margin-bottom: 80px;
+  color: white;
+  font-size: 20px;
+}
+header .hot-deals .preview .description a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  border: 1px solid white;
+}
+header .hot-deals .preview .description a:hover {
+  background-color: darkorange;
+  color: black;
+}
+header .hot-deals .preview img {
+  width: 50%;
+}
+header .hot-deals .deals2 {
+  flex-direction: row-reverse;
+}
+header .hot-deals .deals2 .description {
+  text-align: start;
+}
+header .hot-deals .deals3 {
+  justify-content: space-around;
+}
+header .hot-deals .deals3 .description {
+  text-align: center;
+  z-index: 3;
+}
+header .hot-deals-first {
+  opacity: 1;
+}
+header .hot-deals-second {
+  opacity: 0;
+}
+header .hot-deals-third {
+  opacity: 0;
+  background-image: url("../Pizza-Layout/bg_3.jpg");
+  display: flex;
+}
+header .hot-deals-third:after {
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background-image: url("../Pizza-Layout/bg_4.jpg");
+}
+main .header-menu {
+  width: 500px;
+  margin: 100px auto;
+  text-align: center;
+}
+main .header-menu p {
+  color: darkgrey;
+}
+main .menu1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .menu1 .revers {
+  flex-direction: row-reverse;
+}
+main .menu1 .sectionPizza {
+  display: flex;
+  width: 33.3%;
+  border: red;
+}
+main .menu1 .sectionPizza .order-btn {
+  padding: 10px 20px;
+  border: 1px solid white;
+}
+main .menu1 .sectionPizza .order-btn:hover {
+  color: black;
+  background-color: darkorange;
+  cursor: pointer;
+}
+main .menu1 .sectionPizza .price {
+  color: burlywood;
+  margin-right: 10px;
+}
+main .menu1 .sectionPizza p {
+  color: darkgrey;
+}
+main .menu1 .sectionPizza img {
+  width: 50%;
+  transition: all 0.8s;
+}
+main .menu1 .sectionPizza img:hover {
+  transform: scale(1.1);
+}
+main .menu1 .sectionPizza div {
+  background-image: url("../Pizza-Layout/bg_4.jpg");
+  padding-left: 10px;
+}
+main .menu2 {
+  background-image: url("../Pizza-Layout/bg_4.jpg");
+  display: inline-block;
+}
+main .menu2 .figure {
+  display: inline-block;
+  background-color: darkorange;
+}
+main .menu2 .line {
+  width: 40px;
+  height: 1px;
+  margin-bottom: 9px;
+}
+main .menu2 .rect {
+  transform: rotate(45deg);
+  width: 10px;
+  height: 10px;
+  margin-bottom: 5px;
+}
+main .menu2 .big-rect {
+  transform: rotate(45deg);
+  width: 15px;
+  height: 15px;
+  margin: 3px;
+}
+main .menu2 .our-menu-pricing {
+  margin: 0 auto 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 60%;
+}
+main .menu2 .our-menu-pricing .pricing {
+  display: flex;
+  margin-bottom: 20px;
+}
+main .menu2 .our-menu-pricing .pricing img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin-right: 10px;
+  transition: all 0.8s;
+}
+main .menu2 .our-menu-pricing .pricing img:hover {
+  transform: scale(1.3) rotate(90deg);
+}
+main .menu2 .our-menu-pricing .pricing div span {
+  font-size: 15px;
+}
+main .menu2 .our-menu-pricing .pricing div h3 {
+  font-size: 22px;
+  font-weight: normal;
+  margin: 0;
+  width: 350px;
+  display: inline-block;
+  border-bottom: 1px dotted darkorange;
+}
+main .menu2 .our-menu-pricing .pricing div p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: darkgrey;
+}
+
+footer {
+  background-color: rgb(32, 32, 32);
+  display: inline-block;
+  width: 100%;
+  height: 400px;
+  font-size: 10px;
+}
+footer .btn-text {
+  text-align: center;
+}
+footer p {
+  color: darkgrey;
+}
+footer h2 {
+  color: white;
+}
+footer .footer-info {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px auto;
+  width: 90%;
+}
+footer .footer-info .about-us {
+  width: 200px;
+}
+footer .footer-info .about-us .social-icons {
+  margin-top: 50px;
+  padding-left: 0;
+  display: flex;
+}
+footer .footer-info .about-us .social-icons li {
+  list-style-type: none;
+}
+footer .footer-info .about-us .social-icons li img {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+footer .footer-info .recent-blog .block {
+  display: flex;
+  margin-bottom: 20px;
+}
+footer .footer-info .recent-blog .block span {
+  margin-right: 5px;
+}
+footer .footer-info .recent-blog .block span img {
+  width: 10px;
+  height: 10px;
+  margin-right: 2px;
+}
+footer .footer-info .recent-blog .block img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+footer .footer-info .questions .contact-info {
+  display: flex;
+  align-items: baseline;
+  width: 150px;
+}
+footer .footer-info .questions .contact-info img {
+  width: 10px;
+  height: 12px;
+  margin-right: 10px;
+}
+
+/*# sourceMappingURL=Menu.css.map */
