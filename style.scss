@@ -84,7 +84,7 @@ header {
 
 
   .hot-deals {
-    background-image: url("/Pizza-Layout/bg_1.jpg");
+    background-image: url("Pizza-Layout/bg_1.jpg");
     display: inline-block;
     width: 100%;
     height: 800px;
@@ -169,7 +169,7 @@ header {
   }
   .hot-deals-third{
     opacity: 0;
-    background-image: url("/Pizza-Layout/bg_3.jpg");
+    background-image: url("Pizza-Layout/bg_3.jpg");
     display: flex;
     &:after{
       content: '';

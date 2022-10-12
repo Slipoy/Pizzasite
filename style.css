@@ -153,7 +153,7 @@ header .hot-deals-second {
 }
 header .hot-deals-third {
   opacity: 0;
-  background-image: url("/Pizza-Layout/bg_3.jpg");
+  background-image: url("Pizza-Layout/bg_3.jpg");
   display: flex;
 }
 header .hot-deals-third:after {
